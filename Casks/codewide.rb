@@ -1,6 +1,6 @@
 cask "codewide" do
-  version "0.3.0"
-  sha256 "e028e62df5c1a6fd8b236b846e1ac3e9f7051038986861a63f13ee7202ab2dc2"
+  version "0.4.0"
+  sha256 "e7beacacf5939fcbcee5d9622af8123e2e3770b0a237c45c0c03695a09c3544f"
 
   url "https://github.com/MrFlashAccount/CodeWide/releases/download/v#{version}/CodeWide-#{version}.dmg"
   name "CodeWide"
