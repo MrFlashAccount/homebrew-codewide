@@ -1,9 +1,9 @@
 class Codewide < Formula
   desc "Headless Linux host for CodeWide"
   homepage "https://github.com/MrFlashAccount/CodeWide"
-  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-01.2/codewide-companion-0.5.1-x86_64-unknown-linux-musl.tar.gz"
-  version "0.5.1"
-  sha256 "7360b16bb20eabc419bfc418744ee45c4f7e3907ec321df2c73f6b1271dedbd0"
+  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-11.1/codewide-companion-0.6.0-x86_64-unknown-linux-musl.tar.gz"
+  version "0.6.0"
+  sha256 "a8af585063f9d7223c4050f7112500ae076c4dca25662d542ae66a0481a496db"
   license "MIT"
 
   depends_on :linux
@@ -13,7 +13,6 @@ class Codewide < Formula
     bin.install "bin/codewide-companion"
     libexec.install "libexec/codewide-vcs-git"
     libexec.install "libexec/codewide-companion-memory-watch"
-
     service_file = buildpath/"systemd/user/codewide-companion.service"
     inreplace service_file,
               "%h/.local/lib/codewide/codewide-companion",
@@ -31,6 +30,9 @@ class Codewide < Formula
       The service also requires the Codex app-server control socket documented by CodeWide.
       Then start it with:
         brew services start codewide
+
+      Claude runs automatically when a signed-in `claude` is installed; the
+      companion downloads the Claude Agent SDK from npm on its first start.
     EOS
   end
 
