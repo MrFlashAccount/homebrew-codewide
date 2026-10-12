@@ -1,9 +1,9 @@
 class Relay < Formula
   desc "Blind WebSocket relay for CodeWide"
   homepage "https://github.com/MrFlashAccount/CodeWide"
-  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-12.1/codewide-relay-x86_64-unknown-linux-musl", using: :nounzip
-  version "0.6.1"
-  sha256 "d7baa50e4b490fbd7fa27a33817e06b565c3e9f124e466300985de12a90273b2"
+  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-12.2/codewide-relay-x86_64-unknown-linux-musl", using: :nounzip
+  version "0.6.2"
+  sha256 "ac0a35382aa947098d82032262c0ce4199170e9fbb3d51b651007fa2920ac7b9"
   license "MIT"
 
   depends_on :linux
