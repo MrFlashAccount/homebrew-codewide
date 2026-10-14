@@ -1,8 +1,8 @@
 cask "codewide" do
-  version "0.6.5"
-  sha256 "fba6c9740ea6d23cc447f003b7eb2b25afc3e122a7c7bc8ab5c337fb58dc50a1"
+  version "0.6.6"
+  sha256 "5e9d3646c204189e19079b9c3a94fc25d004d1fb621f961e16655bb6be3d9575"
 
-  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-13.3/CodeWide-#{version}.dmg"
+  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-14.1/CodeWide-#{version}.dmg"
   name "CodeWide"
   desc "Native menu-bar host for CodeWide Companion"
   homepage "https://github.com/MrFlashAccount/CodeWide"
