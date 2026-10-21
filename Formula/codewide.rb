@@ -1,9 +1,9 @@
 class Codewide < Formula
   desc "Headless Linux host for CodeWide"
   homepage "https://github.com/MrFlashAccount/CodeWide"
-  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-21.1/codewide-companion-0.6.15-x86_64-unknown-linux-musl.tar.gz"
-  version "0.6.15"
-  sha256 "a525877560bc94898fb965598318b4558ed4793d6c3a7fe36b1097d5c4f18546"
+  url "https://github.com/MrFlashAccount/CodeWide/releases/download/release-2026-10-21.2/codewide-companion-0.6.16-x86_64-unknown-linux-musl.tar.gz"
+  version "0.6.16"
+  sha256 "87f6371eca6545e1ac27278d4f2977a03af827fa7dd26b0db9632da8987b508f"
   license "MIT"
 
   depends_on :linux
